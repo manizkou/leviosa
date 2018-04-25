@@ -16,9 +16,11 @@
 
 	//create client array
 	$client = [
-		'Client System Info'=>$_SERVER['HTTP_USER_AGENT']
+		'Client System Info'=>$_SERVER['HTTP_USER_AGENT'],
+		'Client IP'=>$_SERVER['REMOTE_ADDR'],
+		'Remote Port'=>$_SERVER['REMOTE_PORT']
 	];
 
-	print_r($client);
+	// print_r($client);
 
 ?>

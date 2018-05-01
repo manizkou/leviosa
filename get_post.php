@@ -1,5 +1,5 @@
 <?php
-	if(isset($_GET['submit_btn'])){
+	/* if(isset($_GET['submit_btn'])){
 		// print_r($_GET);
 		// $name=htmlentities($_GET['name']);
 		// echo $name;
@@ -12,7 +12,17 @@
 		echo $name;
 		$email=$_POST['user_email'];
 		echo  $email;
-	} 
+	} */
+
+	// if(isset($_REQUEST['submit_btn'])){
+	// 	print_r($_REQUEST);
+	// 	$name=htmlentities($_REQUEST['name']);
+	// 	echo $name;
+	// 	$email=$_POST['user_email'];
+	// 	echo  $email;
+	// } 
+
+	echo $_SERVER['QUERY_STRING'];
 ?>
 <html>
 	<head>
